@@ -28,13 +28,13 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: fuelTankMaterial
-    second: {fileID: 1837508422542429131, guid: cccb923aa052644589db46aa1e8d70ec,
+    second: {fileID: 5013881170143925748, guid: 891371a5760514af195ad2a225a97e67,
       type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: wheelMaterial
-    second: {fileID: 1837508422542429131, guid: cccb923aa052644589db46aa1e8d70ec,
+    second: {fileID: 5013881170143925748, guid: 891371a5760514af195ad2a225a97e67,
       type: 3}
   materials:
     materialImportMode: 1
