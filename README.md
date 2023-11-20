@@ -12,6 +12,10 @@ Buy Me a Beer, Starbucks Expresso or send a cheese burguer ... [Paypal](https://
 
 Una pepsi negra en el bus de regreso, Back to the future pepsi ...
 
+```
+<sup><sub>Samuelito se robo el merklin en el 81 ...</sub></sup>
+```
+
 Simple Rail MockUp ...
 
 [![que no se resistieran, por que sino los mataban ... ](https://raw.githubusercontent.com/rgarro/CarsonSpur/main/carson.png)]
