@@ -478,7 +478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.4513587, y: -0.32220784, z: 0.19106707, w: 0.809908}
-  m_LocalPosition: {x: 29.895107, y: 88.32001, z: -46.13544}
+  m_LocalPosition: {x: 23.8, y: 49.2, z: -21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1140433288}
@@ -638,10 +638,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 65702495048144492, guid: 8673fc15e540640e99e1f49f65dde496,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8673fc15e540640e99e1f49f65dde496,
         type: 3}
       propertyPath: m_Name
       value: GT22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8934777400606672865, guid: 8673fc15e540640e99e1f49f65dde496,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8673fc15e540640e99e1f49f65dde496, type: 3}
@@ -686,6 +696,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: -4.28, y: 1.92, z: 15.86}
   m_Center: {x: 0, y: 4.3, z: -0.75}
+--- !u!114 &1140433290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140433286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeec4c9d7fa25401ab3a47ffe8680fc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4098000305205325342
 PrefabInstance:
   m_ObjectHideFlags: 0
