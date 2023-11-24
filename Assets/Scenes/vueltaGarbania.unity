@@ -207,6 +207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 348406583}
   - component: {fileID: 348406582}
+  - component: {fileID: 348406584}
   m_Layer: 0
   m_Name: BatComputer
   m_TagString: Untagged
@@ -240,6 +241,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &348406584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348406581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a6786f2ca747465bad60b776cd1ea4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RestartIcon: {fileID: 2800000, guid: 7b833927b873f4e58815daf2143aa0f9, type: 3}
+  IconX: 40
+  IconY: 20
+  IconWidth: 48
+  IconHeight: 48
+  windowX: 20
+  windowY: 20
+  windowWidth: 300
+  windowHeight: 300
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,13 +499,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.4513587, y: -0.32220784, z: 0.19106707, w: 0.809908}
-  m_LocalPosition: {x: 23.8, y: 49.2, z: -21}
+  m_LocalRotation: {x: 0.39423227, y: -0.45395905, z: 0.17390262, w: 0.77991027}
+  m_LocalPosition: {x: 26.940403, y: 33.559998, z: -12.070282}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1140433288}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 58.676003, y: -169.294, z: 2.0540001}
+  m_LocalEulerAnglesHint: {x: 50.608, y: -64.12, z: -7.8500004}
 --- !u!1 &1025627897
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,8 +716,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: -4.28, y: 1.92, z: 15.86}
-  m_Center: {x: 0, y: 4.3, z: -0.75}
+  m_Size: {x: -2.34, y: 3.68, z: 16.37}
+  m_Center: {x: 0, y: 2.15, z: -1}
 --- !u!114 &1140433290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -705,7 +727,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1140433286}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aeec4c9d7fa25401ab3a47ffe8680fc8, type: 3}
+  m_Script: {fileID: 11500000, guid: cef2da45b5c0f4a35954b6747068d604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &4098000305205325342
@@ -775,5 +797,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5351899058134234345, guid: 51a0910c9582046258fe82fd92b7f19d,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: e230186044cee4555b19c43d5001e3f0,
+        type: 2}
+    - target: {fileID: 6516272395448064656, guid: 51a0910c9582046258fe82fd92b7f19d,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: e230186044cee4555b19c43d5001e3f0,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51a0910c9582046258fe82fd92b7f19d, type: 3}
