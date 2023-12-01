@@ -1176,9 +1176,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frontRight: {fileID: 1378982634}
-  frontLeft: {fileID: 0}
-  backRight: {fileID: 0}
-  backLeft: {fileID: 0}
+  frontLeft: {fileID: 1657234030}
+  backRight: {fileID: 1884251993}
+  backLeft: {fileID: 1747674670}
   acceleration: 500
   breakingForce: 300
 --- !u!1 &1378982632
